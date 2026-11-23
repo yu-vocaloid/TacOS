@@ -1,6 +1,6 @@
 #TacOStpkg install 1.0
 #Signaturepublisher=TacOS
-code = 'def main(code):\n    try:\n        exec(code)\n    except Exception as error:\n        print("Your Python has been crashed!")\n        print()\n        print(e)'
+code = 'def main(code):\n    try:\n        exec(code)\n    except Exception as error:\n        print("Your Python has been crashed!")\n        print()\n        print(error)'
 def INSTALLMAIN():
     print('==========Install==========')
     print('Installing Python...')
